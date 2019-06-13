@@ -1,0 +1,68 @@
+/* -----------------------------------------------------------*/
+/* BASIC SETUP */
+/*------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* -----------------------------------------------------------*/
+/* Reusable Components */
+/*------------------------------------------------------------*/
+.row{
+     max-width: 1140px;
+    margin: 0 auto; 
+    
+}
+
+.main-nav{
+  
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a{
+ /* color: rgba(255, 255, 255, 0.8)*/
+    color: rgb(194, 15, 227);
+    font-size: 100%;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.nav_bar{
+    margin-left: 0;
+}
+
+
+.sign-up-log-in{
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.sign-up-log-in{
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+
+.sign-up-log-in a{
+    margin-right: 20px;   
+}
+
+.btn-sign-in{  
+    text-decoration: none;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
